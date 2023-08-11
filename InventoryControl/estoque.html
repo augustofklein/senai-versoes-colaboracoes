@@ -1,0 +1,49 @@
+<script>
+    const OPERACAO_ENTRADA = 1;
+    const OPERACAO_SAIDA = 2;
+    const ENCERRAR_OPERACAO = "s";
+    const NAO_ENCERRAR_OPERACAO = "n";
+    const CONTINUAR_OPERACAO = "s";
+
+    saldo = parseInt(prompt("Informe o saldo inicial:"));
+    document.write("Saldo inicial: " + saldo + "<br>");
+
+    encerrar = NAO_ENCERRAR_OPERACAO;
+
+    while(encerrar == NAO_ENCERRAR_OPERACAO){
+        operacao = parseInt(prompt("Informe o tipo da operacao(1 entrada ou 2 saída):"));
+
+        if(operacao == OPERACAO_ENTRADA || operacao == OPERACAO_SAIDA){
+            qtdPecas = parseInt(prompt("Informe a quantidade de peças:"));
+
+            document.write("Quantidade de peças: " + qtdPecas + "<br>");
+
+            if(operacao == OPERACAO_ENTRADA){
+                saldo += qtdPecas;
+            }else{
+                if(qtdPecas <= saldo){
+                    saldo -= qtdPecas;
+                }else{
+                    document.write("Saldo insuficiente para processar a operação!" + "<br>")
+                    continue;
+                }
+            }
+
+            document.write("O estoque atual é " + saldo + "<br>");
+
+            continuar = prompt("Deseja continuar com a entrada de dados?(s/n)");
+
+            if(continuar != CONTINUAR_OPERACAO){
+                encerrar = ENCERRAR_OPERACAO;
+                document.write("Sistema encerrado!" + "<br>");
+            }
+        }else{
+            continuar = prompt("Operação invalida. Deseja continuar?(s/n)");
+
+            if(continuar != CONTINUAR_OPERACAO){
+                encerrar = ENCERRAR_OPERACAO;
+                document.write("Sistema encerrado!" + "<br>");
+            }
+        }
+    }
+</script>
