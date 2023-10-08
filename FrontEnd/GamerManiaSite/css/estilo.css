@@ -1,3 +1,18 @@
+/* Cabeçalho */
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+/* Conteúdo principal */
+
+main {
+    min-height: 500px;
+}
+
+/* Rodapé */
+
 footer {
     text-align: center;
 }
@@ -7,9 +22,13 @@ footer p {
     padding: 10px;
 }
 
+/* Banner */
+
 #section-banners img {
     height: 500px;
 }
+
+/* Produtos vendidos */
 
 #section-vendidos {
     text-align: center;;
