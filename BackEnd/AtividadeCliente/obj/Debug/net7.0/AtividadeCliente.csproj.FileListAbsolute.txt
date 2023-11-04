@@ -1,0 +1,15 @@
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.csproj.AssemblyReference.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.GeneratedMSBuildEditorConfig.editorconfig
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.AssemblyInfoInputs.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.AssemblyInfo.cs
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.csproj.CoreCompileInputs.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/bin/Debug/net7.0/AtividadeCliente
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/bin/Debug/net7.0/AtividadeCliente.deps.json
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/bin/Debug/net7.0/AtividadeCliente.runtimeconfig.json
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/bin/Debug/net7.0/AtividadeCliente.dll
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/bin/Debug/net7.0/AtividadeCliente.pdb
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.dll
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/refint/AtividadeCliente.dll
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.pdb
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/AtividadeCliente.genruntimeconfig.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/AtividadeCliente/obj/Debug/net7.0/ref/AtividadeCliente.dll
