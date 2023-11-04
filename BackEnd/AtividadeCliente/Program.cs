@@ -12,12 +12,14 @@ namespace AtividadeCliente
             Console.WriteLine("Informe o Endereço");
             string endereco = Console.ReadLine();
 
-            Console.WriteLine("Pessoa Física(F) ou Jurídica(J)");
+            Console.WriteLine("Pessoa Física(1) ou Jurídica(2)");
             string tipoCliente = Console.ReadLine();
 
-            switch(tipoCliente)
+            EnumCliente enumCliente = (EnumCliente)Enum.Parse(typeof(EnumCliente), tipoCliente);
+
+            switch(enumCliente)
             {
-                case "F":
+                case EnumCliente.PessoaFisica:
                     PessoaFisica pessoaFisica = new PessoaFisica();
                     pessoaFisica.Nome = nome;
                     pessoaFisica.Endereco = endereco;
@@ -37,7 +39,7 @@ namespace AtividadeCliente
                     
                     break;
 
-                case "J":
+                case EnumCliente.PessoaJuridica:
                     PessoaJuridica pessoaJuridica = new PessoaJuridica();
 
                     Console.WriteLine("Informe o CNPJ");
