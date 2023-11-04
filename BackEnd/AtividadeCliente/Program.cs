@@ -33,14 +33,7 @@ namespace AtividadeCliente
 
                     pessoaFisica.PagarImposto(valorCompraPF);
 
-                    Console.WriteLine("---------- Pessoa Física ----------");
-                    Console.WriteLine("Nome ..........: " + pessoaFisica.Nome);
-                    Console.WriteLine("Endereco ......: " + pessoaFisica.Endereco);
-                    Console.WriteLine("CPF ...........: " + pessoaFisica.Cpf);
-                    Console.WriteLine("CPF ...........: " + pessoaFisica.Rg);
-                    Console.WriteLine("Valor da Compra: " + pessoaFisica.Valor.ToString("C"));
-                    Console.WriteLine("Imposto .......: " + pessoaFisica.ValorImposto.ToString("C"));
-                    Console.WriteLine("Valor a Pagar .: " + pessoaFisica.Total.ToString("C"));
+                    Console.WriteLine(pessoaFisica.ToString());
                     
                     break;
 
@@ -58,14 +51,7 @@ namespace AtividadeCliente
 
                     pessoaJuridica.PagarImposto(valorCompraPJ);
 
-                    Console.WriteLine("---------- Pessoa Jurídica ----------");
-                    Console.WriteLine("Nome ..........: " + pessoaJuridica.Nome);
-                    Console.WriteLine("Endereco ......: " + pessoaJuridica.Endereco);
-                    Console.WriteLine("CNPJ ..........: " + pessoaJuridica.Cnpj);
-                    Console.WriteLine("IE ............: " + pessoaJuridica.Ie);
-                    Console.WriteLine("Valor da Compra: " + pessoaJuridica.Valor.ToString("C"));
-                    Console.WriteLine("Imposto .......: " + pessoaJuridica.ValorImposto.ToString("C"));
-                    Console.WriteLine("Valor a Pagar .: " + pessoaJuridica.Total.ToString("C"));
+                    Console.WriteLine(pessoaJuridica.ToString());
 
                     break;
 
