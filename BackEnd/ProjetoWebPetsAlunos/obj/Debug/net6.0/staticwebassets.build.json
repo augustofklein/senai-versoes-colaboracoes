@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "rht5Qo9uQAnN2yWBwONW3NQh3ICutEPMUfI2V+3MO+I=",
+  "Source": "ProjetoWebPetsAlunos",
+  "BasePath": "_content/ProjetoWebPetsAlunos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjetoWebPetsAlunos\\wwwroot",
+      "Source": "ProjetoWebPetsAlunos",
+      "ContentRoot": "C:\\Projects\\senai-versoes-colaboracoes\\BackEnd\\ProjetoWebPetsAlunos\\wwwroot\\",
+      "BasePath": "_content/ProjetoWebPetsAlunos",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Projects\\senai-versoes-colaboracoes\\BackEnd\\ProjetoWebPetsAlunos\\wwwroot\\index.html",
+      "SourceId": "ProjetoWebPetsAlunos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\senai-versoes-colaboracoes\\BackEnd\\ProjetoWebPetsAlunos\\wwwroot\\",
+      "BasePath": "_content/ProjetoWebPetsAlunos",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
