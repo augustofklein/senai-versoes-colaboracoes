@@ -1,0 +1,25 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "produto": "Console 1",
+            "descricao": "Descrição do console 1",
+            "foto": "console1.jpeg",
+            "preco":300.00
+        },
+        {
+            "id": 1,
+            "produto": "Console 2",
+            "descricao": "Descrição do console 2",
+            "foto": "console1.jpeg",
+            "preco":400.00
+        },
+        {
+            "id": 1,
+            "produto": "Console 3",
+            "descricao": "Descrição do console 3",
+            "foto": "console1.jpeg",
+            "preco":500.00
+        }
+    ]
+}
