@@ -17,7 +17,7 @@ export class ProdutoService {
     return this._httpClient.get<Produto>(urlIdProduto);
   }
 
-  getProdutos(id:any): Observable<Produto[]>{
+  getProdutos(): Observable<Produto[]>{
     return this._httpClient.get<Produto[]>(this.url);
   }
 
@@ -30,7 +30,7 @@ export class ProdutoService {
     return this._httpClient.put<Produto[]>(urlAtualizar, produto);
   }
 
-  removerProduto(id: any, produto:Produto): Observable<Produto[]>{
+  removerProduto(id: any): Observable<Produto[]>{
     const urlDeletar = `${this.url}/?${id}`;
     return this._httpClient.delete<Produto[]>(urlDeletar);
   }

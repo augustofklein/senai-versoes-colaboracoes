@@ -40,59 +40,21 @@
   <h2>Consoles em Promoção</h2>
 
   <mat-grid-list cols="3">
-    <mat-grid-tile>
+    <mat-grid-tile *ngFor="let produto of produtos">
         <mat-card class="example-card">
-            <img mat-card-image src="./assets/img/console1.jpeg" alt="Console Extreme II">
+            <img mat-card-image src="./assets/img/{{produto.foto}}" alt="Console Extreme II">
     
             <mat-card-header>
-              <mat-card-title>Console Extreme II</mat-card-title>
+              <mat-card-title>{{produto.produto}}</mat-card-title>
             </mat-card-header>
             
             <mat-card-content>
               <p>
-                Console de muita qualidade para jogar os melhores jogos.
+                {{produto.descricao}}
               </p>
             </mat-card-content>
             <mat-card-actions>
-              <p>R$ 1.000,90</p>
-              <button mat-button>Comprar</button>
-            </mat-card-actions>
-          </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-card class="example-card">
-            <img mat-card-image src="./assets/img/console2.png" alt="Console Master">
-    
-            <mat-card-header>
-              <mat-card-title>Console Master</mat-card-title>
-            </mat-card-header>
-            
-            <mat-card-content>
-              <p>
-                Console mega radical, com ótimo estilo para curtir com os amigos.
-              </p>
-            </mat-card-content>
-            <mat-card-actions>
-              <p>R$ 1.599,00</p>
-              <button mat-button>Comprar</button>
-            </mat-card-actions>
-          </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        <mat-card class="example-card">
-            <img mat-card-image src="./assets/img/console3.jpeg" alt="Console Mega">
-    
-            <mat-card-header>
-              <mat-card-title>Console Mega</mat-card-title>
-            </mat-card-header>
-            
-            <mat-card-content>
-              <p>
-                Console ideal para jogar os jogos mais radicais.
-              </p>
-            </mat-card-content>
-            <mat-card-actions>
-              <p>R$ 1.290,90</p>
+              <p>{{produto.preco | currency : 'BRL'}}</p>
               <button mat-button>Comprar</button>
             </mat-card-actions>
           </mat-card>
