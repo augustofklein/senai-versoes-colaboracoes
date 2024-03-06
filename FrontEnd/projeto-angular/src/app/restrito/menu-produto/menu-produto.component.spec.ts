@@ -1,18 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MenuRestritoComponent } from '../menu-restrito/menu-restrito.component';
 
-import { MenuProdutoComponent } from './menu-produto.component';
-
-describe('MenuProdutoComponent', () => {
-  let component: MenuProdutoComponent;
-  let fixture: ComponentFixture<MenuProdutoComponent>;
+describe('MenuRestritoComponent', () => {
+  let component: MenuRestritoComponent;
+  let fixture: ComponentFixture<MenuRestritoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MenuProdutoComponent]
-    })
-    .compileComponents();
-    
-    fixture = TestBed.createComponent(MenuProdutoComponent);
+      declarations: [MenuRestritoComponent],
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(MenuRestritoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

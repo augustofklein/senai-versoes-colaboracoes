@@ -2,20 +2,20 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class LoginService {
-
   mostraMenu = new Subject<boolean>();
 
-  constructor() { }
+  constructor() {}
 
-  login(usuario: string, senha: string):void {
-    if(usuario === "aluno" && senha === "1234") {
-      localStorage.setItem('token', 'qwer1234')
+  login(usuario: string, senha: string): void {
+    if (usuario === 'aluno' && senha == '1234') {
+      localStorage.setItem('token', 'qwer1234');
       this.mostraMenu.next(false);
     } else {
       this.mostraMenu.next(true);
+      window.location.reload();
     }
   }
 
@@ -26,5 +26,4 @@ export class LoginService {
   getMostraMenu() {
     return this.mostraMenu.asObservable();
   }
-
 }
