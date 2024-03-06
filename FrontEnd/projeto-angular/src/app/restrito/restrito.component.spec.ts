@@ -8,9 +8,8 @@ describe('RestritoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RestritoComponent ]
-    })
-    .compileComponents();
+      declarations: [RestritoComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(RestritoComponent);
     component = fixture.componentInstance;
