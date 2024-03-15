@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 /*Importações Angular Material*/
 import {MatButtonModule} from '@angular/material/button';
@@ -26,6 +26,10 @@ import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-p
 import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
 import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
+
+export function fetchInterceptorFactory(httpClient: HttpClient) {
+  return httpClient;
+}
 
 @NgModule({
   declarations: [
@@ -54,8 +58,8 @@ import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.co
     MatToolbarModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    RestritoRoutingModule
+    RestritoRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
