@@ -1,4 +1,4 @@
-using Exo.WebApi.Contexts;
+using Exo.WebApi.Context;
 using Exo.WebApi.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
