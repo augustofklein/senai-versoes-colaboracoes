@@ -1,0 +1,5 @@
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/XUNIT/atividade_imc_xunit/obj/Debug/net7.0/atividade_imc_xunit.csproj.AssemblyReference.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/XUNIT/atividade_imc_xunit/obj/Debug/net7.0/atividade_imc_xunit.GeneratedMSBuildEditorConfig.editorconfig
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/XUNIT/atividade_imc_xunit/obj/Debug/net7.0/atividade_imc_xunit.AssemblyInfoInputs.cache
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/XUNIT/atividade_imc_xunit/obj/Debug/net7.0/atividade_imc_xunit.AssemblyInfo.cs
+/Users/augusto/Projects/senai-versoes-colaboracoes/BackEnd/XUNIT/atividade_imc_xunit/obj/Debug/net7.0/atividade_imc_xunit.csproj.CoreCompileInputs.cache
